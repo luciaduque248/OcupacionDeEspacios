@@ -1,0 +1,50 @@
+-- EJERCICIO CON 'WITH-SELECT'
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+--use IEEE.STD_LOGIC_ARITH.ALL;
+--use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity decodificador is
+	Port (  	IA : in STD_LOGIC;
+				IB : in STD_LOGIC;
+				IC : in STD_LOGIC;
+				ID : in STD_LOGIC;
+				
+				a : out std_logic
+				b : out std_logic
+				c : out std_logic
+				d : out std_logic
+				e : out std_logic
+				f : out std_logic
+				g : out std_logic
+			);
+
+end decodificador;
+
+architecture SystemX_arch of decodificador is
+	 
+	 signal IAIBICID : std_logic_vector(3 downto 0);
+	 
+begin 
+
+  IAIBICID <= IA & IB & IC & ID;
+  
+  with (IAIBICID) select
+	a,b,c,d,e,f,g  <= '0'when "0000",
+	                  '1'when "0001",
+							'2'when "0010",
+							'3'when "0011",
+							'4'when "0100",
+							'5'when "0101",
+							'6'when "0110",
+							'7'when "0111",
+							'8'when "1000",
+							'9'when "1001";
+							
+							
+			
+			
+	
+	
+	end architecture;

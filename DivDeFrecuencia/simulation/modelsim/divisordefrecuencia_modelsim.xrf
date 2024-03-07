@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/DELL/Documents/VHDL/1erParcial-INDIVIDUAL/DivDeFrecuencia/divisordefrecuencia.vhd
+source_file = 1, C:/Users/DELL/Documents/VHDL/1erParcial-INDIVIDUAL/DivDeFrecuencia/db/divisordefrecuencia.cbx.xml
+source_file = 1, c:/users/dell/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/users/dell/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/users/dell/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/users/dell/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = divisordefrecuencia
+instance = comp, \clk_out~output\, clk_out~output, divisordefrecuencia, 1
+instance = comp, \clk~input\, clk~input, divisordefrecuencia, 1
+instance = comp, \clk_div~0\, clk_div~0, divisordefrecuencia, 1

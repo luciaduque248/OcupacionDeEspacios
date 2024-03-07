@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DELL\Documents\VHDL\sumadorTest(adders)\decodificador15-2\LAB1\simulation\qsim
+vdecodificador
+Z1 !s100 Fl_X=]YND[E^J0RL;kdF41
+Z2 IL]0PS4fVTKZT[4:cRUHMo0
+Z3 V_?C0@JDOleS1l1RjIA6Y81
+Z4 dC:\Users\DELL\Documents\VHDL\sumadorTest(adders)\decodificador15-2\LAB1\simulation\qsim
+Z5 w1709683148
+Z6 8decodificador.vo
+Z7 Fdecodificador.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|decodificador.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1709683148.895000
+Z12 !s107 decodificador.vo|
+!s101 -O0
+vdecodificador_vlg_check_tst
+!i10b 1
+Z13 !s100 mLURTChX9Y<DcAQ]h;BTE2
+Z14 I2c=`QfQ0i;bY=2;XO:1Y60
+Z15 V58Yn8Jh4SLoc66E]N0DA:0
+R4
+Z16 w1709683147
+Z17 8DiagramTime.vwf.vt
+Z18 FDiagramTime.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1709683148.974000
+Z20 !s107 DiagramTime.vwf.vt|
+Z21 !s90 -work|work|DiagramTime.vwf.vt|
+!s101 -O0
+R10
+vdecodificador_vlg_sample_tst
+!i10b 1
+Z22 !s100 QOK4_[>R]LQCLa_DG4Nli3
+Z23 Io>C1@_zcmSCO?gaARPhk;0
+Z24 VZDfZ[SNjU^JRBe5hK205<1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdecodificador_vlg_vec_tst
+!i10b 1
+!s100 C^]GHSHP[S7;TFob<QSOU1
+IB2MJh:X[Ndgiz;mZc0R193
+Z25 VeS^b3@G>FnKBko:V1I1WD0
+R4
+R16
+R17
+R18
+Z26 L0 265
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

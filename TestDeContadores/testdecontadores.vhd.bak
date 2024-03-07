@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity testdecontadores is
+end testdecontadores;
+
+architecture Behavioral of testdecontadores is
+
+    component contadorAscendente
+        Port ( clk : in STD_LOGIC;
+               reset : in STD_LOGIC;
+               start : in STD_LOGIC;
+               count : out STD_LOGIC_VECTOR(5 downto 0));
+    end component;
+
+    component contadorDescendente
+        Port ( clk : in STD_LOGIC;
+               reset : in STD_LOGIC;
+               start : in STD_LOGIC;
+               count : out STD_LOGIC_VECTOR(5 downto 0));
+    end component;
+
+    signal clk, reset, start : STD_LOGIC;
+    signal count_up, count_down : STD_LOGIC_VECTOR(5 downto 0);
+
+begin
+
+    clk <= not clk after 500 ns;
+
+    reset <= '0', '1' after 1000 ns, '0' after 2000 ns;
+    start <= '0', '1' after 1500 ns, '0' after 2500 ns;
+
+    U1: contadorAscendente port map(clk, reset, start, count_up);
+    U2: contadorDescendente port map(clk, reset, start, count_down);
+
+end Behavioral;
